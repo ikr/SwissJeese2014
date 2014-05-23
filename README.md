@@ -1,6 +1,6 @@
 # SwissJeese2014
 
-Materials for my Swiss Jeese 2014 talk (if it even gets accepted)
+Materials for my Swiss Jeese 2014 talk
 
 ## Abstract
 
@@ -44,5 +44,10 @@ At the same time, JavaScript community has coined the term “callback hell”, 
   - CSP Hoare's notation
   - CSP implementation with core.async
   
+## Links
+
+- http://swannodette.github.io/2013/07/12/communicating-sequential-processes/
+- http://talks.golang.org/2012/concurrency.slide#50
+
 
 
