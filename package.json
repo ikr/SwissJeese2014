@@ -1,0 +1,31 @@
+{
+  "name": "ikr-swiss-jeese-2014",
+  "version": "1.0.0",
+  "description": "The JS code for my Swiss Jeese 2014 talk",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha -b ./tests",
+    "posttest": "jshint ./src ./tests ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ikr/SwissJeese2014.git"
+  },
+  "keywords": [
+    "presentation",
+    "conference"
+  ],
+  "author": "Ivan Krechetov <ivan.krechetov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ikr/SwissJeese2014/issues"
+  },
+  "homepage": "https://github.com/ikr/SwissJeese2014",
+  "devDependencies": {
+    "jshint": "^2.5.1",
+    "mocha": "^1.19.0"
+  }
+}
