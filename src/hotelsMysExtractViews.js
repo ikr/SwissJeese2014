@@ -1,7 +1,13 @@
 (function () {
     'use strict';
 
-    module.mapHotel = function (emit, doc) {
+    exports.localized = function (multi, locale) {
+        return multi.filter(function (item) {
+            return item.locale === locale;
+        })[0].values[0];
+    };
+
+    exports.mapHotel = function (emit, doc) {
         emit(doc._id, {
             name: doc.name,
             retingStars: doc.ratingStars,
@@ -9,6 +15,9 @@
         });
     };
 
-    module.mapLocation = function (emit, doc) {
+    exports.mapLocation = function (emit, doc) {
+        if (doc.isRegion) {
+            return;
+        }
     };
 }());
