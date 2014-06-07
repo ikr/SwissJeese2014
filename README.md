@@ -54,5 +54,14 @@ communicating sequential processes. Let’s put those fancy process algebras to 
   
 ## Links
 
+### Co-routines, CSP
+
 - http://swannodette.github.io/2013/07/12/communicating-sequential-processes/
 - http://talks.golang.org/2012/concurrency.slide#50
+
+### General async
+
+- [Callbacks, synchronous and asynchronous](http://blog.ometer.com/2011/07/24/callbacks-synchronous-and-asynchronous/)
+- [Designing APIs for Asynchrony](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony)
+- [The emperor’s new clothes were built with Node.js](http://notes.ericjiang.com/posts/751)
+- [generators + promises = tasks](http://taskjs.org/)
