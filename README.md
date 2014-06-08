@@ -65,3 +65,4 @@ communicating sequential processes. Let’s put those fancy process algebras to 
 - [Designing APIs for Asynchrony](http://blog.izs.me/post/59142742143/designing-apis-for-asynchrony)
 - [The emperor’s new clothes were built with Node.js](http://notes.ericjiang.com/posts/751)
 - [generators + promises = tasks](http://taskjs.org/)
+- [Why I am switching to promises](http://spion.github.io/posts/why-i-am-switching-to-promises.html)
