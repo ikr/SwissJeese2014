@@ -66,3 +66,4 @@ communicating sequential processes. Let’s put those fancy process algebras to 
 - [The emperor’s new clothes were built with Node.js](http://notes.ericjiang.com/posts/751)
 - [generators + promises = tasks](http://taskjs.org/)
 - [Why I am switching to promises](http://spion.github.io/posts/why-i-am-switching-to-promises.html)
+- ["Promise nuggets" tutorial](http://promise-nuggets.github.io/)
