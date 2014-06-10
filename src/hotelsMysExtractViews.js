@@ -1,12 +1,6 @@
 (function () {
     'use strict';
 
-    exports.localized = function (multi, locale) {
-        return multi.filter(function (item) {
-            return item.locale === locale;
-        })[0].values[0];
-    };
-
     exports.flat = function (hoteldataId, multi) {
         return [hoteldataId].concat(multi.reduce(function (memo, item) {
             return memo.concat(item.values);

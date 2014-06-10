@@ -3,24 +3,7 @@ describe('hotelsMysExtractViews', function () {
 
     var assert = require('assert'),
         hotelsMysExtractViews = require('../src/hotelsMysExtractViews'),
-        localized = hotelsMysExtractViews.localized,
         flat = hotelsMysExtractViews.flat;
-
-    describe('localized', function () {
-        it('basically works', function () {
-            assert.strictEqual(
-                localized([{
-                    locale: 'en_US',
-                    values: ['Lucerne']
-                }, {
-                    locale: 'de_CH',
-                    values: ['Luzern', 'Luz']
-                }], 'de_CH'),
-
-                'Luzern'
-            );
-        });
-    });
 
     describe('flat', function () {
         it('basically works', function () {
