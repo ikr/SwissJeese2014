@@ -16,7 +16,7 @@
     };
 
     exports.mapHotel = function (emit, doc) {
-        emit(doc._id, {
+        emit(doc.name, {
             name: doc.name,
             retingStars: doc.ratingStars,
             city: doc.city.hoteldataId
