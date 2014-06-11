@@ -27,5 +27,7 @@
         if (doc.isRegion) {
             return;
         }
+
+        emit(doc.hoteldataId, exports.flat(doc.hoteldataId, doc.name));
     };
 }());
