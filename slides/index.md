@@ -53,8 +53,9 @@ var Y = function (f) {
 
 ---
 
-* Software's eating the world
-* Free lunch is over
+## Software's eating the world, __and__
+
+## (our) _Free lunch is over_ ―Herb Sutter, 2005
 
 ---
 
