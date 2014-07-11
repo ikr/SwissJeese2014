@@ -56,7 +56,8 @@ communicating sequential processes. Let’s put those fancy process algebras to 
 
 - THE law for transforming a parallel _process_ into a non-parallel _process_ -- L4 in 2.2.1
 - No-deadlock proof: unfeasible, even for small finite problem like the Dining Philosophers 2.5.4
-  
+- Multithreading: effectively, a forking goto
+
 ## Links
 
 ### Co-routines, CSP
