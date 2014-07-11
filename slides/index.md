@@ -8,6 +8,8 @@
 
 # [fit] Grüezi!
 
+![](img/cross.png)
+
 ---
 
 # [fit] Who?
@@ -16,6 +18,7 @@
 
 # @ikr
 
+* MSc in Mathematics from NSU, Russia
 * Programming for money since 2000-03-13
   * C++/Win32/GDI+/MFC/WTL
   * Visual Basic 😱
@@ -23,6 +26,26 @@
   * PHP, *__JavaScript__*
 
 ![](img/ikr.jpg)
+
+---
+
+# The kind of JavaScript I like
+
+```javascript
+var Y = function (f) {
+        return function (self) {
+            return function (x) {
+                return f(self(self))(x);
+            };
+        }(
+            function (self) {
+                return function (x) {
+                    return f(self(self))(x);
+                };
+            }
+        );
+    };
+```
 
 ---
 
