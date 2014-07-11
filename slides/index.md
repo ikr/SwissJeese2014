@@ -22,6 +22,8 @@
   * Java Servlets & Swing, C#
   * PHP, *__JavaScript__*
 
+![](img/ikr.jpg)
+
 ---
 
 # [fit] Why?
@@ -33,9 +35,11 @@
 
 ---
 
-*There are __just a few__ people in the world who can reason effectively about deadlocks & race conditions … They all must be enslaved, and made to work on operating systems. And nobody else should go near of this stuff, because it's just way too complicated.*
+*There are __just a few__ people in the world who can reason effectively about __deadlocks & race conditions__ … They all must be __enslaved__, and made to work on operating systems. And nobody else should go near of this stuff, because it's just __way too complicated.__*
 
-―Douglas Crockford
+_―Douglas Crockford_
+
+![right,inline](img/Crockford.jpg)
 
 ---
 
