@@ -6,6 +6,16 @@
 
 ---
 
+### @ikr
+
+* Programming for money since 2000-03-13
+  * C++/Win32/GDI+/MFC/WTL
+  * Visual Basic 😱
+  * Java Servlets & Swing, C#
+  * PHP, *__JavaScript__*
+
+---
+
 ### Hello World!
 
 ```javascript
