@@ -49,6 +49,17 @@ var Y = function (f) {
 
 ---
 
+# The kind of JavaScript I like
+
+```lisp
+(define Y 
+    (lambda (f)
+        ((lambda (x) (x x))
+        (lambda (x) (f (lambda (y) ((x x) y)))))))
+```
+
+---
+
 # [fit] Why?
 
 ---
