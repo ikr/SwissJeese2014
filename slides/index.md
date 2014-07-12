@@ -12,11 +12,19 @@
 
 ---
 
+![](img/cheese-store.jpg)
+
+---
+
+![left](img/Gouda.jpg) ![right](img/Appenzeller.jpg)
+
+---
+
 # [fit] Who?
 
 ---
 
-# @ikr
+# Ivan, aka @ikr
 
 * MSc in Mathematics from NSU, Russia
 * Programming for money since 2000-03-13
