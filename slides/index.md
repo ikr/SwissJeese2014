@@ -76,6 +76,8 @@ _―Douglas Crockford_
 
 ![right,inline](img/Crockford.jpg)
 
+^Photo by Robert Claypool, [CC-licensed](https://creativecommons.org/licenses/by/2.0/), available [here](https://www.flickr.com/photos/35106989@N08/8455616670/)
+
 ---
 
 ### Hello World!
