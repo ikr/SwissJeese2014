@@ -165,3 +165,20 @@ while (true) {
 # The price
 
 1. You must never block
+
+---
+
+# The price
+
+1. You must never block
+2. You must never _ever_ block
+
+---
+
+# The price
+
+1. You must never block
+2. You must never _ever_ block
+3. Recovering from an exception is practically impossible (JavaScript-specific)
+
+^ More on that later
