@@ -229,6 +229,12 @@ doTheWork(a, b, function (result) {
 
 ---
 
+# Example: objects search
+
+![inline%](img/example.jpg)
+
+---
+
 ```javascript
 strictMatches(query, function (ids) {
     if (!ids[0]) {
@@ -294,4 +300,77 @@ strictMatches(query, function (ids) {
         })
     }
 });
+```
+
+---
+
+# Fetch details and photos in parallel
+
+```javascript
+var universalHandler = function () {
+        var details, photos;
+
+        return {
+            detailsArrived: function (xs) {
+                details = xs;
+            },
+
+            photosArrived: function (xs) {
+                photos = xs;
+            }
+        };
+    };
+```
+
+---
+
+# Fetch details and photos in parallel
+
+```javascript
+var universalHandler = function (callback) {
+        var details,
+            photos,
+
+            check = function () {
+                if (details && photos) callback(details, photos);
+            },
+
+            return {
+                detailsArrived: function (xs) { details = xs; },
+                photosArrived: function (xs) { photos = xs; }
+            };
+    };
+```
+
+---
+
+# Fetch details and photos in parallel
+
+```javascript
+var universalHandler = function (callback) {
+        var details,
+            photos,
+
+            check = function () {
+                if (details && photos) callback(details, photos);
+            },
+
+            return {
+                detailsArrived: function (xs) { details = xs; check(); },
+                photosArrived: function (xs) { photos = xs; check(); }
+            };
+    };
+```
+
+---
+
+# Fetch details and photos in parallel
+
+```javascript
+var h = universalHandler(function (details, photos) {
+        console.dir(_.merge(details, photos));
+    });
+
+    fetchDetails(ids, h.detailsArrived);
+    fetchPhotos(ids, h.photosArrived);
 ```
