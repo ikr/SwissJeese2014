@@ -241,7 +241,7 @@ strictMatches(query, function (ids) {
         // Try fuzzy matching
     }
 
-    // In either case, fetch the matched object's details 
+    // In either case, fetch the matched objects' details 
 });
 ```
 
