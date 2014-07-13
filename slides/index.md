@@ -226,3 +226,72 @@ doTheWork(a, b, function (result) {
     console.log('Got %s', result);
 });
 ```
+
+---
+
+```javascript
+strictMatches(query, function (ids) {
+    if (!ids[0]) {
+        // Try fuzzy matching
+    }
+
+    // In either case, fetch the matched object's details 
+});
+```
+
+---
+
+```javascript
+strictMatches(query, function (ids) {
+    if (!ids[0]) {
+        fuzzyMatches(query, function (ids) {
+            fetchDetails(ids, function (details) {
+                console.dir(details);
+            })
+        });
+    }
+    else {
+        fetchDetails(ids, function (details) {
+            console.dir(details);
+        })
+    }
+});
+```
+
+---
+
+```javascript
+strictMatches(query, function (ids) {
+    if (!ids[0]) {
+        fuzzyMatches(query, function (ids) {
+            // Now we need details and photos
+        });
+    }
+    else {
+        // Same here
+    }
+});
+```
+
+---
+
+```javascript
+strictMatches(query, function (ids) {
+    if (!ids[0]) {
+        fuzzyMatches(query, function (ids) {
+            fetchDetails(ids, function (details) {
+                fetchPhotos(ids, function (photos) {
+                    console.dir(_.merge(details, photos));
+                })
+            })
+        });
+    }
+    else {
+        fetchDetails(ids, function (details) {
+            fetchPhotos(ids, function (photos) {
+                console.dir(_.merge(details, photos));
+            })
+        })
+    }
+});
+```
