@@ -20,10 +20,6 @@
 
 ---
 
-# [fit] Who?
-
----
-
 # Ivan, aka @ikr
 
 * MSc in Mathematics from NSU, Russia
@@ -68,13 +64,17 @@ var Y = function (f) {
 
 ---
 
-# [fit] Why?
+# [fit] Why async matters?
 
 ---
 
 ## Software's eating the world, __and__
 
 ## (our) _Free lunch is over_ ―Herb Sutter, 2005
+
+---
+
+# Now, we can only go faster by doing __many things at once__
 
 ---
 
@@ -85,13 +85,3 @@ _―Douglas Crockford_
 ![right,inline](img/Crockford.jpg)
 
 ^Photo by Robert Claypool, [CC-licensed](https://creativecommons.org/licenses/by/2.0/), available [here](https://www.flickr.com/photos/35106989@N08/8455616670/)
-
----
-
-### Hello World!
-
-```javascript
-var myFunction = function () {
-    alert(“Hello World!”)
-};
-```
