@@ -78,6 +78,24 @@ var Y = function (f) {
 
 ---
 
+# Threads!
+
+![inline](img/threads.jpg)
+
+---
+
+# Place-oriented programming!
+
+![inline](img/threads.jpg)
+
+ ---
+
+# Shared memory!
+
+![inline](img/threads.jpg)
+
+---
+
 *There are __just a few__ people in the world who can reason effectively about __deadlocks & race conditions__ … They all must be __enslaved__, and made to work on operating systems. And nobody else should go near of this stuff, because it's just __way too complicated.__*
 
 _―Douglas Crockford_
