@@ -23,7 +23,7 @@
 # Ivan, aka @ikr
 
 * MSc in Mathematics from NSU, Russia
-* Programming for money since 2000-03-13
+* Living off programming since 2000-03-13
   * C++/Win32/GDI+/MFC/WTL
   * Visual Basic 😱
   * Java Servlets & Swing, C#
@@ -103,3 +103,7 @@ _―Douglas Crockford_
 ![right,inline](img/Crockford.jpg)
 
 ^Photo by Robert Claypool, [CC-licensed](https://creativecommons.org/licenses/by/2.0/), available [here](https://www.flickr.com/photos/35106989@N08/8455616670/)
+
+---
+
+# Alternative: event loop
