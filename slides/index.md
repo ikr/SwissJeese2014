@@ -130,7 +130,38 @@ _―Douglas Crockford_
 
 # Event loop
 
+```javascript
+var event;
+
+while (true) {
+    event = System.runtime.nextEvent();
+    handle(event);
+}
+```
+
+---
+
+# Event loop
+
 * Single thread of execution
 * No multiprogramming with shared state
 * No locking
 * No race conditions
+
+---
+
+# Event loop
+
+* Single thread of execution
+* No multiprogramming with shared state
+* No locking
+* No race conditions
+* ...And Justice for All ![inline](img/metallica.jpg)
+
+^Perfect? Almost
+
+---
+
+# The price
+
+1. You must never block
