@@ -198,3 +198,13 @@ while (true) {
 2. You must never _ever_ block
 3. Recovering from an exception is practically impossible (JavaScript-specific)
 4. __Callbacks__
+
+---
+
+# Why do callbacks even emerge?
+
+---
+
+# Never wait
+
+![inline,75%](img/Lenin.jpg)
