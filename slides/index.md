@@ -207,4 +207,22 @@ while (true) {
 
 # Never wait
 
-![inline,75%](img/Lenin.jpg)
+![inline,90%](img/Lenin.jpg)
+
+---
+
+# Never wait
+
+```javascript
+var result = doTheWork(a, b);
+```
+
+---
+
+# Never wait
+
+```javascript
+doTheWork(a, b, function (result) {
+    console.log('Got %s', result);
+});
+```
