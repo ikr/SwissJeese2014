@@ -173,6 +173,13 @@ while (true) {
 1. You must never block
 2. You must never _ever_ block
 
+```javascript
+while (true) {
+    event = System.runtime.nextEvent();
+    handle(event);
+}
+```
+
 ---
 
 # The price
@@ -182,3 +189,12 @@ while (true) {
 3. Recovering from an exception is practically impossible (JavaScript-specific)
 
 ^ More on that later
+
+---
+
+# The price
+
+1. You must never block
+2. You must never _ever_ block
+3. Recovering from an exception is practically impossible (JavaScript-specific)
+4. __Callbacks__
