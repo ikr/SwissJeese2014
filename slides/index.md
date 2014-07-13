@@ -106,4 +106,31 @@ _―Douglas Crockford_
 
 ---
 
-# Alternative: event loop
+# Alternatives
+
+1. Actors / Message passing
+2. Streams / Reactive programming
+3. Implicit parallelism: DSL-s, logic programming
+4. Event loop
+
+^Speak about declarative
+
+---
+
+# Alternatives
+
+1. Actors / Message passing
+2. Streams / Reactive programming
+3. Implicit parallelism: DSL-s, logic programming
+4. __Event loop__
+
+^Why event loop happened in JS? GUI!
+
+---
+
+# Event loop
+
+* Single thread of execution
+* No multiprogramming with shared state
+* No locking
+* No race conditions
