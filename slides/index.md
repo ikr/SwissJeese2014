@@ -374,3 +374,44 @@ var h = universalHandler(function (details, photos) {
     fetchDetails(ids, h.detailsArrived);
     fetchPhotos(ids, h.photosArrived);
 ```
+
+---
+
+# [fit] Can things go wrong?
+
+---
+
+```javascript
+strictMatches(query, function (ids) {
+    if (!ids[0]) {
+        fuzzyMatches(query, function (ids) {
+            fetchDetails(ids, function (details) {
+                fetchPhotos(ids, function (photos) {
+                    console.dir(_.merge(details, photos));
+                })
+            })
+        });
+    }
+    else {
+        fetchDetails(ids, function (details) {
+            fetchPhotos(ids, function (photos) {
+                console.dir(_.merge(details, photos));
+            })
+        })
+    }
+});
+```
+
+---
+
+# Let's digress a bit
+
+# How do we solve problems
+# in software engineering?
+
+---
+
+# Let's digress a bit
+
+# How do we solve problems
+# in ~~software~~ engineering?
