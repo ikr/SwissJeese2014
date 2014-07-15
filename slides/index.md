@@ -499,3 +499,17 @@ async.parallel([
     ...
 })
 ```
+
+---
+
+async.waterfall([
+    function (callback) {
+        // Fetching the strict matches
+        ...
+        callback(null, ids)
+        ...
+    },
+
+    function (strictMatchIds, callback) {
+    }
+], function (error, matchedIds) {});
