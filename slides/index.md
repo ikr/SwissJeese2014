@@ -464,12 +464,18 @@ async.parallel([
     fetchDetails,
     fetchPhotos
 ], function (error, result) {
-    var details = result[0],
-        photos = result[1];
-
+    if (error) {
+        ...
+        return;
+    }
+    
+    details = result[0],
+    photos = result[1];
     ...
 })
 ```
+
+^That is a _composing_ operator
 
 ---
 
@@ -487,9 +493,9 @@ async.parallel([
         ...
     }
 ], function (error, result) {
-    var details = result[0],
-        photos = result[1];
-
+    ...
+    details = result[0],
+    photos = result[1];
     ...
 })
 ```
