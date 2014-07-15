@@ -502,6 +502,7 @@ async.parallel([
 
 ---
 
+```javascript
 async.waterfall([
     function (callback) {
         // Fetching the strict matches
@@ -513,3 +514,4 @@ async.waterfall([
     function (strictMatchIds, callback) {
     }
 ], function (error, matchedIds) {});
+```
