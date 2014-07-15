@@ -415,3 +415,81 @@ strictMatches(query, function (ids) {
 
 # How do we solve problems
 # in ~~software~~ engineering?
+
+---
+
+# Abstraction
+
+# &
+
+# Composition
+
+---
+
+# Composable callbacks
+
+```javascript
+var callback = function (error, result, ...) {
+        if (error) {
+            ...
+            return;
+        }
+
+        ...
+    };
+```
+
+---
+
+# https://github.com/caolan/async
+
+```javascript
+var fetchDetails = function (callback) {
+        ...
+        callback(null, details);
+        ...
+    },
+
+    fetchPhotos = function (callback) {
+        ...
+        callback(null, photos);
+        ...
+    };
+```
+
+---
+
+```javascript
+async.parallel([
+    fetchDetails,
+    fetchPhotos
+], function (error, result) {
+    var details = result[0],
+        photos = result[1];
+
+    ...
+})
+```
+
+---
+
+```javascript
+async.parallel([
+    function (callback) {
+        ...
+        callback(null, details);
+        ...
+    },
+
+    function (callback) {
+        ...
+        callback(null, photos);
+        ...
+    }
+], function (error, result) {
+    var details = result[0],
+        photos = result[1];
+
+    ...
+})
+```
