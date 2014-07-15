@@ -371,8 +371,8 @@ var h = universalHandler(function (details, photos) {
         console.dir(_.merge(details, photos));
     });
 
-    fetchDetails(ids, h.detailsArrived);
-    fetchPhotos(ids, h.photosArrived);
+fetchDetails(ids, h.detailsArrived);
+fetchPhotos(ids, h.photosArrived);
 ```
 
 ---
