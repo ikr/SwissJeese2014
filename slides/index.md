@@ -524,3 +524,24 @@ async.waterfall([
     }
 ], function (error, matchedIds) { ... });
 ```
+
+---
+
+# Function?
+
+```javascript
+goDoComputerThing(x, y, function (error, result) {
+    ...
+});
+```
+
+---
+
+# [fit] HELL NO!
+
+---
+
+# Promises
+
+# Putting FUN back into function :)
+
