@@ -512,6 +512,15 @@ async.waterfall([
     },
 
     function (strictMatchIds, callback) {
+        if (strictMatchIds[0]) {
+            callback(null, strictMatchIds);
+            return;
+        }
+
+        // Fetching the fuzzy matches
+        ...
+        callback(null, ids)
+        ...
     }
-], function (error, matchedIds) {});
+], function (error, matchedIds) { ... });
 ```
