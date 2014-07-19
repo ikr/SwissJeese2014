@@ -704,3 +704,16 @@ var Q = require('q'), request = require('request'),
 ...
 
 and many others
+
+---
+
+# Hoare's notation
+
+```
+MATCH(src) = (
+    left?empty → src?ids → right!ids → MATCH |
+    left?ids → right!ids → MATCH
+)
+
+MATCH(strict) || MATCH(fuzzy)
+```
