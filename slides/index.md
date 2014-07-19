@@ -660,4 +660,20 @@ var Q = require('q'), request = require('request'),
 
 ---
 
+# Promises are great.
+
+# Too bad that npm grew so huge without them
+
+---
+
+# Needs improvement
+
+* Can't do too much in an async handler
+
+* Events complect communication & flow of control
+
+^Async nature of the code is too explicit
+
+---
+
 # [fit] Intensify the magic
