@@ -537,11 +537,13 @@ goDoComputerThing(x, y, function (error, result) {
 
 ---
 
-# [fit] HELL NO!
+# Emm... Not really
+
+# Functions _return_ things
 
 ---
 
-# Promises
+# Promises!
 
 # Putting FUN back into function :)
 
