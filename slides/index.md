@@ -648,4 +648,12 @@ var Q = require('q'), request = require('request'),
 
 ---
 
+# `Q` even provides
+
+# `nodify` & `denodify` 
+
+# shortcuts
+
+---
+
 # [fit] Intensify the magic
