@@ -537,6 +537,14 @@ goDoComputerThing(x, y, function (error, result) {
 
 ---
 
+# Function?
+
+```javascript
+goDoComputerThing(x, y, function (error, result) {
+    ...
+});
+```
+
 # Emm... Not really
 
 # Functions _return_ things
