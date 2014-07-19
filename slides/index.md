@@ -530,7 +530,7 @@ async.waterfall([
 # Function?
 
 ```javascript
-goDoComputerThing(x, y, function (error, result) {
+doComputerStuff(x, y, function (error, result) {
     ...
 });
 ```
@@ -540,7 +540,7 @@ goDoComputerThing(x, y, function (error, result) {
 # Function?
 
 ```javascript
-goDoComputerThing(x, y, function (error, result) {
+doComputerStuff(x, y, function (error, result) {
     ...
 });
 ```
@@ -551,7 +551,7 @@ goDoComputerThing(x, y, function (error, result) {
 
 ---
 
-# Promises!
+# Promises
 
 # Putting FUN back into function :)
 
@@ -613,11 +613,11 @@ matches('bär').then(fetch).spread(function (details, photos) {
 
 ---
 
-# [fit] But Node.js!
+# [fit] But Node.js
 
 ---
 
-# But ~~Node.js~~ npm!
+# But ~~Node.js~~ npm
 
 ![inline, 95%](img/callbacks-promises-both.png)
 
@@ -645,3 +645,7 @@ var Q = require('q'), request = require('request'),
         return deferred.promise;
     };
 ```
+
+---
+
+# [fit] Intensify the magic
