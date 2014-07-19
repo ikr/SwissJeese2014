@@ -571,6 +571,8 @@ var matches = function (query) {
     };
 ```
 
+^No clutter in function signatures
+
 ---
 
 # Promises are easy to compose
