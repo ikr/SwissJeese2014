@@ -78,19 +78,19 @@ var Y = function (f) {
 
 ---
 
-# Threads!
+# Threads
 
 ![inline](img/threads.jpg)
 
 ---
 
-# Place-oriented programming!
+# Place-oriented programming
 
 ![inline](img/threads.jpg)
 
  ---
 
-# Shared memory!
+# Shared memory
 
 ![inline](img/threads.jpg)
 
@@ -686,8 +686,21 @@ var Q = require('q'), request = require('request'),
 
 * Author of Quicksort
 
-* Inventor of NULL reference
+* Inventor of the NULL reference :)
 
-* Author of "Communicating Sequential Processes" (CSP)
+* Author of “Communicating Sequential Processes” (CSP)
 
 ^CC-licensed photo by http://commons.wikimedia.org/wiki/User:Rama from http://en.wikipedia.org/wiki/Tony_Hoare#mediaviewer/File:Sir_Tony_Hoare_IMG_5125.jpg
+
+---
+
+# Implementations based on Hoare's CSP
+
+* Ruby's fibers
+* Go's Goroutines
+* Lua's Coroutines
+* Clojure's core.async
+
+...
+
+and many others
