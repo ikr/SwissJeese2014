@@ -609,10 +609,39 @@ matches('bär').then(fetch).spread(function (details, photos) {
 
 ## Because, _obviously,_ promises are _monadic,_ while `async.*` are just _comonadic_ :)
 
+^Seriously, promises provide a better abstraction than control flow libraries. Approved for ES6.
+
 ---
 
 # [fit] But Node.js!
 
 ---
 
-# [fit] But ~~Node.js~~ npm!
+# But ~~Node.js~~ npm!
+
+![inline, 95%](img/callbacks-promises-both.png)
+
+^Based on a CC-licensed image by EmacsWiki http://www.emacswiki.org/emacs/TabsSpacesBoth
+
+---
+
+# Actually, not that bad
+
+```javascript
+var Q = require('q'), request = require('request'),
+    
+    fetchJeese = function () {
+        var deferred = Q.defer();
+
+        request('http://www.swissjeese.com/', function (error, response, body) {
+            if (error) {
+                deferred.reject(error);
+                return;
+            }
+
+            deferred.resolve(body);
+        });
+
+        return deferred.promise;
+    };
+```
