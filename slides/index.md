@@ -426,7 +426,7 @@ strictMatches(query, function (ids) {
 
 ---
 
-# Composable callbacks
+# Composable callbacks: control flow libs
 
 ```javascript
 var callback = function (error, result, ...) {
@@ -555,3 +555,64 @@ goDoComputerThing(x, y, function (error, result) {
 
 # Putting FUN back into function :)
 
+---
+
+# Promises can be returned and passed around
+
+```javascript
+var matches = function (query) {
+        return strictMatches(query).then(function (strictMatchIds) {
+            return (
+                strictMatchIds[0] ?
+                strictMatchIds :
+                fuzzyMatches(query)
+            );
+        });
+    };
+```
+
+---
+
+# Promises are easy to compose
+
+```javascript
+var fetch = function (ids) {
+        return Q.all([fetchDetails, fetchPhotos]);
+    };
+    
+matches('bär').then(fetch).spread(function (details, photos) {
+    console.dir(_.merge(details, photos));
+});
+```
+
+---
+
+# Errors bubble up
+
+```javascript
+var fetch = function (ids) {
+        return Q.all([fetchDetails, fetchPhotos]);
+    };
+    
+matches('bär').then(fetch).spread(function (details, photos) {
+    console.dir(_.merge(details, photos));
+}).catch(console.error);
+```
+
+---
+
+# promises > `async.*`
+
+---
+
+# promises > `async.*`
+
+## Because, _obviously,_ promises are _monadic,_ while `async.*` are just _comonadic_ :)
+
+---
+
+# [fit] But Node.js!
+
+---
+
+# [fit] But ~~Node.js~~ npm!
