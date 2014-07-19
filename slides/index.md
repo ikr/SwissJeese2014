@@ -585,6 +585,8 @@ matches('bär').then(fetch).spread(function (details, photos) {
 });
 ```
 
+^Multiple then-s are possible
+
 ---
 
 # Errors bubble up
