@@ -677,3 +677,17 @@ var Q = require('q'), request = require('request'),
 ---
 
 # [fit] Intensify the magic
+
+---
+
+# Tony Hoare
+
+![inline, 20%](img/Hoare.jpg)
+
+* Author of Quicksort
+
+* Inventor of NULL reference
+
+* Author of "Communicating Sequential Processes" (CSP)
+
+^CC-licensed photo by http://commons.wikimedia.org/wiki/User:Rama from http://en.wikipedia.org/wiki/Tony_Hoare#mediaviewer/File:Sir_Tony_Hoare_IMG_5125.jpg
