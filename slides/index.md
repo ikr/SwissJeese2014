@@ -708,7 +708,36 @@ and many others
 
 ---
 
-# Hoare's notation
+# Hoare's CSP
+
+* Processes engage in events: `e → P`
+
+* Recursive notation
+
+```
+CH5F = in5f → (
+    out2f → out1f → out1f → out1f → CH5F |
+    out2f → out2f → out1f → CH5F
+)
+```
+
+(5 CHF change machine)
+
+---
+
+# Hoare's CSP
+
+* Various process composition operators
+  * running in parallel
+  * choice
+  * interleaving
+  * chaining
+  * subordination
+  ...
+
+---
+
+# Hoare's CSP
 
 ```
 SMATCH = (
@@ -724,3 +753,23 @@ SMATCH || FMATCH
 ```
 
 ^Dining philosophers example in the book. Rich notation with various composition operators
+
+---
+
+# Hoare's CSP
+
+## Special case of events: channel IO
+
+## Buffers, stacks & queues
+
+## Shared resources access
+
+---
+
+# Big ideas
+
+## Sequential execution
+
+## Channel operations are blocking
+
+## Awaiting threads are parked
