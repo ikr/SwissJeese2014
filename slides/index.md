@@ -111,8 +111,8 @@ _―Douglas Crockford_
 # Alternatives
 
 1. Actors / Message passing
-2. Streams / Reactive programming
-3. Implicit parallelism: DSL-s, logic programming
+2. Implicit parallelism: DSL-s, logic programming
+3. Streams / Reactive programming
 4. Event loop
 
 ^Speak about declarative
@@ -122,8 +122,8 @@ _―Douglas Crockford_
 # Alternatives
 
 1. Actors / Message passing
-2. Streams / Reactive programming
-3. Implicit parallelism: DSL-s, logic programming
+2. Implicit parallelism: DSL-s, logic programming
+3. Streams / Reactive programming
 4. __Event loop__
 
 ^Why event loop happened in JS? GUI!
