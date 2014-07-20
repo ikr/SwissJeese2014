@@ -696,10 +696,11 @@ var Q = require('q'), request = require('request'),
 
 # Implementations based on Hoare's CSP
 
-* Ruby's fibers
-* Go's Goroutines
-* Lua's Coroutines
-* Clojure's core.async
+* Ruby fibers
+* C# Async/Await
+* Go Goroutines
+* Lua  Coroutines
+* Clojure core.async
 
 ...
 
@@ -721,3 +722,5 @@ FMATCH = (
 
 SMATCH || FMATCH
 ```
+
+^Dining philosophers example in the book. Rich notation with various composition operators
