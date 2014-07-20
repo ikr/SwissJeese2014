@@ -844,6 +844,10 @@ suspend(function* () {
 
 # [fit] Use ClojureScript
 
+![95%](img/skull.png)
+
+^CC-licensed Skull designed by http://www.thenounproject.com/Simon+Child from http://www.thenounproject.com
+
 ---
 
 # [fit] Thank you
