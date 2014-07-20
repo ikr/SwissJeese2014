@@ -772,4 +772,4 @@ SMATCH || FMATCH
 
 ## Channel operations are blocking
 
-## Awaiting threads are parked
+## Awaiting threads of control are parked
