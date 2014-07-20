@@ -710,10 +710,14 @@ and many others
 # Hoare's notation
 
 ```
-MATCH(src) = (
-    left?empty → src?ids → right!ids → MATCH |
-    left?ids → right!ids → MATCH
+SMATCH = (
+    sm.got.x → SMATCH | sm.none → SMATCH
 )
 
-MATCH(strict) || MATCH(fuzzy)
+FMATCH = (
+    sm.got.x → out.x → FMATCH |
+    sm.none → fm.got.y → out.y → FMATCH
+)
+
+SMATCH || FMATCH
 ```
