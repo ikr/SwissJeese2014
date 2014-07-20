@@ -231,7 +231,7 @@ doTheWork(a, b, function (result) {
 
 ---
 
-# Example: objects search
+# Example: destination search
 
 ![inline%](img/example.jpg)
 
