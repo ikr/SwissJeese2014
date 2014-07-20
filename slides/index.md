@@ -772,4 +772,35 @@ SMATCH || FMATCH
 
 ## Channel operations are blocking
 
-## Awaiting threads of control are parked
+## Awaiting execution threads are parked
+
+---
+
+# ES6 has CSP-style coroutines
+
+^Sort of a hack
+
+---
+
+# https://github.com/jmar777/suspend
+
+```javascript
+var suspend = require('suspend'), resume = suspend.resume,
+    strictMatches = function (query, callback) { ... },
+    fuzzyMatches = function (query, callback) { ... };
+
+suspend(function* () {
+    var strictMatchIds = yield strictMatches('bär', resume);
+
+    if (strictMatchIds[0]) {
+        console.dir(strictMatchIds);
+    }
+    else {
+        console.dir(yield fuzzyMatches('bär', resume));
+    }
+})();
+```
+
+---
+
+# Missing out
