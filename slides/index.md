@@ -674,7 +674,9 @@ var Q = require('q'), request = require('request'),
 
 * Events complect communication & flow of control
 
-^Async nature of the code is too explicit
+* Error callbacks + throws mix is hard to get right
+
+^Async nature of the code is too explicit. What if you call an error CB, and it throw-s?
 
 ---
 
