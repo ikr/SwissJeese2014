@@ -780,7 +780,32 @@ SMATCH || FMATCH
 
 # ES6 has CSP-style coroutines
 
-^Sort of a hack
+---
+
+# Generators
+
+---
+
+```javascript
+var bigint = require('bigint'),
+
+    primes = function* () {
+        var current = 0;
+
+        while (true) {
+            current = bigint(current).nextPrime().toString();
+            yield current;
+        }
+    },
+
+    take = function* (seq, count) {
+        for (var i = 0; i < count; i++) {
+            yield seq.next().value;
+        }
+    };
+
+for (var p of take(primes(), 100)) { console.info(p); }
+```
 
 ---
 
