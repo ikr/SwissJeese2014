@@ -10,6 +10,8 @@
 
 ![](img/cross.png)
 
+^Joel, Pierre, Christoph
+
 ---
 
 ![](img/cheese-store.jpg)
