@@ -803,4 +803,18 @@ suspend(function* () {
 
 ---
 
-# Missing out
+# Not a full CSP implementation
+
+* Unbuffered channels only (rendezvous points)
+* Multiple readers/writers per channel  are impossible
+* No _alt_ support
+  * wait for any one (and only one) of a set of channels
+  * time-out channels
+
+---
+
+# [fit] Use ClojureScript
+
+---
+
+# [fit] Thank you
