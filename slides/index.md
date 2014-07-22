@@ -621,6 +621,10 @@ matches('bär').then(fetch).spread(function (details, photos) {
 
 # [fit] But Node.js
 
+![right, 50%](img/skies.jpg)
+
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
+
 ---
 
 # But ~~Node.js~~ npm
