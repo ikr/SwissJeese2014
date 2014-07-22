@@ -625,7 +625,7 @@ matches('bär').then(fetch).spread(function (details, photos) {
 
 # But ~~Node.js~~ npm
 
-![inline, 95%](img/callbacks-promises-both.png)
+![inline, 115%](img/callbacks-promises-both.png)
 
 ^Based on a CC-licensed image by EmacsWiki http://www.emacswiki.org/emacs/TabsSpacesBoth
 
