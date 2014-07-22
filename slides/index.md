@@ -851,3 +851,7 @@ suspend(function* () {
 ---
 
 # [fit] Thank you
+
+![right](img/round-cheese.jpg)
+
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
