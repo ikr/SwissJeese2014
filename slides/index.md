@@ -8,9 +8,9 @@
 
 # [fit] Grüezi!
 
-![](img/cross.png)
+![right](img/swiss-stuff.jpg)
 
-^Joel, Pierre, Christoph
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
 
 ---
 
