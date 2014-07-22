@@ -686,6 +686,10 @@ var Q = require('q'), request = require('request'),
 
 # [fit] Intensify the magic
 
+![right](img/Flumsi.jpg)
+
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
+
 ---
 
 # Tony Hoare
