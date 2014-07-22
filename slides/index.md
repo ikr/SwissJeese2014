@@ -840,6 +840,16 @@ suspend(function* () {
 
 ---
 
+# Awesomeness
+
+* Function return values
+* Sequential code...
+* ...but with clear indication it's async
+* All the JS control flow expressions work
+* Error handling with `try/catch`
+
+---
+
 # Not a full CSP implementation
 
 * Unbuffered channels only (rendezvous points)
