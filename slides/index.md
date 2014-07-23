@@ -115,12 +115,6 @@ Send packet CA → Netherlands → CA  150,000,000 ns 150    ms
 
 ![inline](img/threads.jpg)
 
- ---
-
-# Shared memory
-
-![inline](img/threads.jpg)
-
 ---
 
 *There are __just a few__ people in the world who can reason effectively about __deadlocks & race conditions__ … They all must be __enslaved__, and made to work on operating systems. And nobody else should go near of this stuff, because it's just __way too complicated.__*
