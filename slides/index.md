@@ -64,6 +64,8 @@ var Y = function (f) {
         (lambda (x) (f (lambda (y) ((x x) y)))))))
 ```
 
+^Connection of FP to async
+
 ---
 
 # [fit] Why async matters?
