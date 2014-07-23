@@ -89,7 +89,7 @@ Read 1 MB sequentially from disk   20,000,000  ns  20    ms 80x memory, 20X SSD
 Send packet CA → Netherlands → CA  150,000,000 ns 150    ms
 ```
 
-^Not smth new. Spooler example.
+^Source with credits: https://gist.github.com/jboner/2841832 -- Not smth new. Spooler example.
 
 ---
 
