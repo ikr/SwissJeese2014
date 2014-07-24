@@ -577,6 +577,8 @@ doComputerStuff(x, y, function (error, result) {
 
 # Putting FUN back into function :)
 
+![90%](img/russian-dolls.jpg)
+
 ---
 
 # Promises can be returned and passed around
