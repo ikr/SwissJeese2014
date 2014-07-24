@@ -808,11 +808,11 @@ SMATCH || FMATCH
 
 ---
 
-# ES6 has CSP-style coroutines
-
----
+# ES6 has CSP-style coroutines:
 
 # Generators
+
+![right, 63%](img/cheese-cylinder.jpg)
 
 ---
 
