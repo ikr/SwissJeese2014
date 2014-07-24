@@ -763,7 +763,7 @@ and many others
 
 ```
 CH5F = in5f → (
-    out2f → out1f → out1f → out1f → CH5F |
+    out1f → out1f → out1f → out2f → CH5F |
     out2f → out2f → out1f → CH5F
 )
 ```
