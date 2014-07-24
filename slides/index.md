@@ -208,7 +208,7 @@ while (true) {
 
 1. You must never block
 2. You must never _ever_ block
-3. Recovering from an exception is practically impossible (JavaScript-specific)
+3. Recovering from an exception is tricky (JavaScript-specific)
 
 ^ More on that later
 
