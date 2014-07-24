@@ -227,6 +227,8 @@ while (true) {
 
 ![right](img/cow.jpg)
 
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
+
 ---
 
 # Never wait
@@ -240,6 +242,8 @@ while (true) {
 ```javascript
 var result = doTheWork(a, b);
 ```
+
+^Public domain photo
 
 ---
 
@@ -581,6 +585,8 @@ doComputerStuff(x, y, function (error, result) {
 
 ![90%](img/russian-dolls.jpg)
 
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
+
 ---
 
 # Promises can be returned and passed around
@@ -817,6 +823,8 @@ SMATCH || FMATCH
 # Generators
 
 ![right, 63%](img/cheese-cylinder.jpg)
+
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
 
 ---
 
