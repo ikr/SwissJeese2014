@@ -752,9 +752,14 @@ and many others
 
 # Hoare's CSP
 
-* Processes engage in events: `e → P`
+`P = (e → P')`
 
+* Processes engage in events
 * Recursive notation
+
+---
+
+# Hoare's CSP
 
 ```
 CH5F = in5f → (
