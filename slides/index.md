@@ -225,6 +225,8 @@ while (true) {
 
 # Why do callbacks even emerge?
 
+![right](img/cow.jpg)
+
 ---
 
 # Never wait
