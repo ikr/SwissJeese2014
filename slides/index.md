@@ -440,11 +440,11 @@ strictMatches(query, function (ids) {
 
 ---
 
-# Abstraction
+# [fit] Abstraction & Composition
 
-# &
+![](img/keyboard-with-legos.jpg)
 
-# Composition
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
 
 ---
 
