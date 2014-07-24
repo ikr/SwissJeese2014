@@ -30,6 +30,7 @@
   * Visual Basic 😱
   * Java Servlets & Swing, C#
   * PHP, *__JavaScript__*
+* Now at XIAG (we're hiring ;)
 
 ![](img/ikr.jpg)
 
