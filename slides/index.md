@@ -235,6 +235,8 @@ while (true) {
 
 ![inline,90%](img/Lenin.jpg)
 
+^Public domain photo
+
 ---
 
 # Never wait
@@ -242,8 +244,6 @@ while (true) {
 ```javascript
 var result = doTheWork(a, b);
 ```
-
-^Public domain photo
 
 ---
 
