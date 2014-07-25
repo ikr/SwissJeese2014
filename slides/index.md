@@ -261,6 +261,8 @@ doTheWork(a, b, function (result) {
 
 ![inline%](img/example.jpg)
 
+^Snapshot of https://www.swiss-hotels.com by STC
+
 ---
 
 ```javascript
