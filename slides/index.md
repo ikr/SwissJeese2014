@@ -407,6 +407,10 @@ fetchPhotos(ids, h.photosArrived);
 
 # [fit] Can things go wrong?
 
+![](img/sky.jpg)
+
+^Photo copyright by Julia Hämmerle <julia@tastylife.ch>, permission granted to use in this presentation
+
 ---
 
 ```javascript
