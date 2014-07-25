@@ -829,7 +829,7 @@ SMATCH || FMATCH
 
 # ES6 has CSP-style coroutines:
 
-# Generators
+# via Generators
 
 ![right, 63%](img/cheese-cylinder.jpg)
 
@@ -901,7 +901,7 @@ suspend(function* () {
 
 ---
 
-# [fit] Use ClojureScript
+# [fit] Try ClojureScript ;)
 
 ![95%](img/skull.png)
 
