@@ -903,9 +903,9 @@ suspend(function* () {
 
 ---
 
-# [fit] Try ClojureScript ;)
+# Try ClojureScript
 
-![95%](img/skull.png)
+![30%](img/skull.png)
 
 ^CC-licensed Skull designed by http://www.thenounproject.com/Simon+Child from http://www.thenounproject.com
 
